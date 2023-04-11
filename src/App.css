@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.App{
+    display: flex;
+}
+.custom_toolbar{
+    width:300px;
+    height:100vh;
+    background-color: #ecf9f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list{
+   
+    list-style-type: none;
+    font-weight: bold;
+    line-height: 30px;
+}
+hr{
+    border: 1.5px solid black;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login{
+    display:flex;
+    flex-direction: column;
+    line-height: 30px;
+    row-gap: 30px;
+    width: 300px;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.signup{
+    display:flex;
+    flex-direction: column;
+    line-height: 30px;
+    row-gap: 30px;
+    width: 300px;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.page{
+    display:flex;
+}
+.sl{
+    margin:60px auto
+}
+.addFile{
+   width:22rem;
+    /* border: 2px solid rgb(13, 85, 241); */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 5px;
+    margin:100px;
+    text-align: center;
+    color: rgb(32, 101, 230);
+
+}
+.addFile:hover{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
 
-.App-link {
-  color: #61dafb;
+.crdImg{
+    margin:30px auto;
+    width:60px;
+    height: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.userPdfs{
+height:150px;
+width: 150px;
+
 }
