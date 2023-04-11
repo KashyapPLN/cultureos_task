@@ -49,9 +49,9 @@ function home(){
       <div style={{height:'60px',backgroundColor:'#c4e6e6',width:'300px'}}></div>
       <div className='custom_toolbar'>
         <ul className='list'>
-            <li onClick={home} style={{paddingTop:'10px'}}><span style={{marginRight:'10px',display:'inline-flex'}}><AiOutlineHome/></span>Home <p><hr/></p></li>
+            <li onClick={home} style={{paddingTop:'10px',cursor:'pointer'}}><span style={{marginRight:'10px',display:'inline-flex'}}><AiOutlineHome/></span>Home <p><hr/></p></li>
             
-            <li onClick={myPapers}><span style={{marginRight:'10px',display:'inline-flex'}}><AiOutlineFileText/></span>My Papers</li>
+            <li style={{cursor:'pointer'}}onClick={myPapers}><span style={{marginRight:'10px',display:'inline-flex',cursor:'pointer'}}><AiOutlineFileText/></span>My Papers</li>
             <li><span style={{marginRight:'10px',display:'inline-flex'}}><AiOutlineFileDone/></span>Evaluation</li>
             <li><span style={{marginRight:'10px',display:'inline-flex'}}><HiOutlineNewspaper/></span>Re-evalation</li>
             <li><span style={{marginRight:'10px',display:'inline-flex'}}><BsFileEarmarkBarGraph/></span>Reports</li>
